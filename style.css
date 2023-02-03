@@ -92,16 +92,24 @@ div.project {
 }
 
 .announcements-wrap{
-    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     grid-row-start: 2;
     grid-row-end: 5;
     grid-column-start: 5;
+    grid-column-end: 7;
 }
 
 
 .trending-wrap{
-    grid-row-start: 5;
-    grid-row-end: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -5vh;
+    grid-row-start: 4;
+    grid-row-end: 6;
     grid-column-start: 5;
     grid-column-end: 7;
 }
@@ -110,4 +118,14 @@ br {
    display: block;
    margin: 10px 0;
    line-height:22px;
+}
+
+.announcements-card{
+    background-color: red;
+}
+
+.trending-card{
+    display: flex;
+    flex-direction: column;
+    background-color: green;
 }
